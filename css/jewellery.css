@@ -1,0 +1,166 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+:root, html, body {
+	padding: 0;
+	margin: 0;3}
+body {
+	font-size: 100%;
+	font-size-adjust: 100%;
+	font-family: cursive, cambria, verdana, sans-serif;
+}
+.clear-float::after {
+	display: block;
+	clear: both;
+	content: "";
+}
+img, video {
+	max-width: 100%;
+	vertical-align: bottom;
+}
+.header0 {
+	background-color: red;
+	opacity: 80%;
+}
+
+.header1 ul li {
+	display: inline-block;
+}
+.rose {
+	font-size: 47px;
+	color: white;
+	padding: 10px;
+}
+.recorder {
+	font-size: 40px;
+	padding: 10px;
+	color: black;
+}
+.header3 {
+	float: right;
+	/*	border: 1px solid black;*/
+	position: absolute;
+	right: 30rem;
+	top: 1.5rem;
+	z-index: 100;
+}
+.header3, input {
+	width: 20rem;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 10px;
+}
+input {
+	border: 2px solid black; 
+}
+.sear {
+	font-size: 25px;
+	color: red;
+	position: absolute;
+	left: 18rem;
+	bottom: 1rem;
+}
+.header, input:hover {
+	border: 2px solid red;
+	transition: border-color 0.3s ease-in-out;
+}
+.header4, ul {
+	text-decoration: none;
+}
+.header4 {
+	float: right;
+	/*border: 1px solid black;*/
+	position: absolute;
+	left: 50rem;
+	top: 0.40rem;
+}
+.header4, ul, li {
+	display: inline-block;
+}
+.header4 a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}	
+ .header4 a:hover {
+       color: white;
+ }
+
+.cart {
+	font-size: 30px;
+	color: black;
+	padding: 28px;
+}
+.person {
+	font-size: 30px;
+	color: white;
+	padding: 0;
+}
+.md-call {
+	font-size: 30px;
+	color: black;
+	padding-left: 2rem;
+}
+.main-header3 a {
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	padding: 3%;
+
+}
+.main-header3 {
+  	margin: 2rem .50rem 2rem .50rem;
+  	box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.main-header4 a:hover {
+   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+.footer {
+	border: 1px solid black;
+	background-color: black;		
+}
+.footer a {
+	text-decoration: none;
+}
+.footer3 img {
+	width: 2rem;
+	height: 2rem;
+}
+.footer1 {
+	float: right;
+	color: white;
+}
+.footer2 h2 {
+	text-align: center;
+/*	font-size: 25px;*/
+}
+.footer4 {
+	float: right;
+	color: white;
+	position: relative;
+	right: 10rem;
+}
+.footer7 {
+	float: right;
+	position: relative;
+	right: 23rem;
+	color: white;
+}
+.footer6 p {
+	color: white;
+}
+.footer10 {
+	margin: 0 3rem;
+	color: white;
+}
+.footer13 p {
+	color: white;
+}
+.footer14 {
+	text-align: center;
+	border-top: 1px solid white;
+	color: white;
+}

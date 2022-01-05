@@ -1,0 +1,31 @@
+ .main-writeup1  {
+	width: 50%;
+	height: 15rem;
+	float: right;
+}
+.main-writeup2 {
+	width: 50%;
+	float: right;
+}
+.main-writeup  {
+	border: 2px solid black;
+	height: 26rem;
+	background-color: black;
+	color: white;
+	opacity: 80%;
+}
+.main-writeup1 h2 {
+   text-decoration: red underline;
+
+}
+.main-writeup1 ul li {
+	color: white;
+}
+
+.main-writeup3 {
+	border-top: 2px solid red;
+	height: 26rem;
+	background-color: black;
+	color: white;
+	opacity: 80%;
+}

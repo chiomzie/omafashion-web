@@ -1,0 +1,192 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+:root, html, body {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 100%;
+	font-size-adjust: 100%;
+	font-family: cursive, cambria, verdana, sans-serif;
+}
+.clear-float::after {
+	display: block;
+	clear: both;
+	content: "";
+}
+img, video {
+	max-width: 100%;
+	vertical-align: bottom;
+}
+.header1 {
+	background-color: red;
+}
+
+.header1 ul li {
+	display: inline-block;
+}
+.rose {
+	font-size: 45px;
+	color: white;
+	padding: 10px;
+}
+.recorder {
+	font-size: 40px;
+	padding: 10px;
+	color: white;
+}
+.header3 {
+	float: right;
+	/*	border: 1px solid black;*/
+	position: absolute;
+	right: 30rem;
+	top: 1.5rem;
+	z-index: 100;
+}
+.header3 input {
+	width: 20rem;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 10px;
+}
+input {
+	border: 2px solid black; 
+}
+.sear {
+	font-size: 25px;
+	color: red;
+	position: absolute;
+	left: 18rem;
+	bottom: 0.25rem;
+}
+.header, input:hover {
+	border: 2px solid white;
+	transition: border-color 0.3s ease-in-out;
+}
+.header4, ul {
+	text-decoration: none;
+}
+.header4 {
+	float: right;
+	/*border: 1px solid black;*/
+	position: absolute;
+	left: 50rem;
+	top: 0.40rem;
+}
+.header4 ul li {
+	display: inline-block;
+	color: white;
+}	
+ .header4 a:hover {
+       color: red;
+ }
+ .header4 a {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+.cart {
+	font-size: 30px;
+	color: white;
+	padding: 20px;
+}
+.person {
+	font-size: 30px;
+	color: white;
+	padding: 0;
+}
+.md-call {
+	font-size: 30px;
+	color: white;
+	padding: 20px;
+}
+.mai h3{
+	margin-left:  2rem;
+}
+.main {
+	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+	margin:  0 1.1rem 1rem 1.1rem;
+}
+.main1 h2 {
+   text-align: center;
+}
+.main11 {
+	width: 50%;
+	float: right;
+	margin-right: 2rem;
+}
+.main5 {
+	margin-left:  2rem;
+}
+.main6 h2{
+	background-color: red;
+	border: 1px solid red;
+	width: 20%;
+	text-align: center;
+	color: white;
+	position: absolute;
+	bottom: 26rem;
+	left: 18rem;
+}
+.mai1 {
+	width: 30%;
+	float: left;
+	padding-left: 0.50rem;
+}
+.mai2 {
+	width: 45%;
+	float: left;
+	padding-left: 0.80rem;
+}
+.mai3 {
+	width: 20%;
+	float: left;
+	padding-left: 1.5rem;
+}
+.footer {
+	border: 1px solid black;
+	background-color: black;
+}
+.footer3 img {
+	width: 2.5rem;
+	height: 2.5rem;
+     
+}
+.footer1 {
+	float: right;
+	color: white;
+}
+.footer2 h2 {
+	text-align: center;
+/*	font-size: 25px;*/
+}
+.footer4 {
+	float: right;
+	color: white;
+	position: relative;
+	right: 6rem;
+}
+.footer7 {
+	float: right;
+	position: relative;
+	right: 20rem;
+	color: white;
+}
+.footer6 p {
+	color: white;
+}
+.footer10 {
+	margin: 0 3rem;
+	color: white;
+}
+.footer13 p {
+	color: white;
+	font-size: 18px;
+}
+.footer14 {
+	text-align: center;
+	border-top: 1px solid white;
+	color: white;
+}
